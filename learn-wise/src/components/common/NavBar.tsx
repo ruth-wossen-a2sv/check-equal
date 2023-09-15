@@ -33,7 +33,7 @@ export default function Nav() {
     setOpenMenu(!openMenu);
   };
   return (
-    <nav className="bg-transparent fixed w-full z-50 top-0">
+    <nav className="bg-transparent backdrop-filter backdrop-blur-md fixed w-full z-50 top-0">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4 px-2">
         <Link href="/">
             <h2 className="text-4xl font-semibold">
